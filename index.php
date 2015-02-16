@@ -30,7 +30,7 @@ function generate_events()
 		"SUMMARY:".$v['title']."\r\n".
 #		"LOCATION:".$v['loc']."\r\n".
 		"DESCRIPTION:"._escapeString($v['desc'])."\r\n".
-		"ORGANIZER:MAILTO:'ggafl@googlegroups.com"."\r\n".
+		"ORGANIZER:MAILTO:ggafl@googlegroups.com"."\r\n".
 #		"X-ALT-DESC;FMTTYPE=text/html:".$this->_escapeString($this->html)."\n".
 		"URL:http://www.ggafl.com/schedule/\r\n".
 		"UID:ggafl-".uniqid()."\r\n".
